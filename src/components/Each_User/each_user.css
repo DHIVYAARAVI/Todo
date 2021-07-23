@@ -1,0 +1,97 @@
+.full{
+    margin: 2% 8% 0 8%;
+}
+
+.topic_e{
+    border: 2px solid #DEB887;
+    border-radius: 1%;
+    padding: 2% 10% 2% 40%;
+    background-color: #DEB887;
+    color: brown;
+    margin-bottom: 1%;
+}
+
+.topic_h1_e{    
+    font-family: 'Amaranth';
+    font-size: 70px;
+}
+
+.card1{
+    border: 2px solid #8B4513;
+    background-color: #8B4513;
+    padding: 2% 2% 2% 2%;
+    border-radius: 1%;
+    font-family: 'Andika New Basic';
+    font-size: 25px;
+    color: bisque;
+    margin-bottom: 1%;
+}
+
+.card2{
+    border: 2px solid #A52A2A;
+    background-color: #A52A2A;
+    padding: 2% 2% 2% 2%;
+    border-radius: 1%;
+    font-family: 'Andika New Basic';
+    font-size: 25px;
+    color: bisque;
+    margin-bottom: 3%;
+}
+
+.postdiv{  
+    margin-left: 37%;  
+    margin-right: 47%;
+    border-radius: 1%;
+    background-color: #F4A460;
+    border: 5px solid #F4A460;
+    padding: 1% 2% 1% 2%;      
+}
+
+.postButton{   
+    font-size: 20px;
+    color: white;   
+    font-family: 'Andika New Basic'; 
+    text-decoration: none;     
+}
+
+.postButton:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.postdiv:hover{
+    background-color: #A52A2A;
+}
+
+@media only screen and (max-width: 600px){
+    .full{
+        margin-top: 5%;
+    }
+    .topic_e{
+        padding: 2% 10% 2% 20%;
+        margin-bottom: 5%;
+    }
+    
+    .topic_h1_e{    
+        font-size: 50px;
+    }
+
+    .card1{
+        padding: 2% 2% 2% 2%;
+        font-size: 18px;
+    }
+    
+    .card2{
+        padding: 2% 2% 2% 2%;
+        font-size: 18px;
+    }
+
+    .postdiv{  
+        margin-left: 25%;  
+        margin-right: 40%;     
+    }
+    
+    .postButton{   
+        font-size: 15px;     
+    }
+}

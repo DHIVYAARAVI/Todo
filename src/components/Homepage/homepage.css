@@ -1,0 +1,50 @@
+.app{
+    background-image: url("../../images/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47em;
+    padding: 6% 0 0 30% ;
+  }
+  
+  .heading{
+    font-family: 'Amaranth';
+    font-size: 70px;
+    color: saddlebrown;
+    font-weight: bold;
+    margin-bottom: 20%;
+    text-shadow: 5px 5px #DEB887;
+  }
+  
+  .button{
+      border: 5px solid saddlebrown;
+      border-radius: 5%;
+      font-size: 20px;
+      background-color: saddlebrown;
+      margin-left: 23%;
+      color: white;
+      text-decoration: none;
+      padding: 1% 1% 1% 1%;
+  }
+
+  .button:hover{
+      text-decoration: none;
+      background-color: #FFDEAD;
+      color: black;
+}
+
+@media only screen and (max-width: 600px){
+  .app{
+    padding: 25% 0 0 3%;
+    text-align: center;
+    background-size: 100% 100%;
+    height: 51em;
+  }
+  .heading{
+    font-size: 50px;
+  }
+  .button{
+    font-size: 15px;
+    margin-left: 0%;
+    padding: 1% 2% 1% 2%;
+  }
+}
